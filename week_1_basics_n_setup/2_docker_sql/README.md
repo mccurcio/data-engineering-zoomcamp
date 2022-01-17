@@ -1,4 +1,6 @@
-All the commands from the video
+### Docker SQL
+
+*All the commands from the video*
 
 1. Download data
 
@@ -58,8 +60,6 @@ docker run -it \
   -p 8080:80 \
   dpage/pgadmin4
 ```
-
-## Network
 
 6. Create a network
 
