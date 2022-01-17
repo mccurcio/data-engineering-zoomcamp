@@ -1,12 +1,12 @@
 All the commands from the video
 
-Downloading the data
+1. Download data
 
 ```bash
 wget https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.csv
 ```
 
-Running postgres on windows (note the full path)
+2A. Run postgres on windows (note the full path)
 
 ```bash
 docker run -it \
@@ -19,7 +19,7 @@ docker run -it \
 ```
 
 
-Running postgres on Linux/MacOS
+2B. Run postgres on Linux/MacOS
 
 
 ```bash
@@ -32,13 +32,13 @@ docker run -it \
   postgres:13
 ```
 
-Installing pgcli
+3. Install pgcli - postgres client
 
 ```bash
 pip install pgcli
 ```
 
-Using pgcli to connect to postgres
+4. Use pgcli to connect to postgres
 
 ```bash
 pgcli -h localhost -p 5432 -u root -d ny_taxi
@@ -49,7 +49,7 @@ Dataset:
 * https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 * https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
-Running pgAdmin
+5. Run pgAdmin - Postgres Admin Tools
 
 ```bash
 docker run -it \
@@ -61,7 +61,7 @@ docker run -it \
 
 ## Network
 
-Create a network
+6. Create a network
 
 ```bash
 docker network create pg-network
