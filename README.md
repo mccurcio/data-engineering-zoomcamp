@@ -14,10 +14,10 @@
 
 ### Prerequisites
 
-1. Python 3
+1. Python 3 - [Anaconda Python](https://www.anaconda.com/products/individual)
 1. GCP account
-1. Docker
-1. Terraform
+1. [Docker](https://docs.docker.com/engine/install/)
+1. [Terraform](https://www.terraform.io/downloads
 1. An IDE: VS code, PyCharm, Spyder, Jupyter Notebooks
 
 ### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup)
