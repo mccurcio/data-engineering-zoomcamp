@@ -12,6 +12,14 @@
 
 > **Note**: This is preliminary and may change
 
+### Prerequisites
+
+1. Python 3
+1. GCP account
+1. Docker
+1. Terraform
+1. An IDE: VS code, PyCharm, Spyder, Jupyter Notebooks
+
 ### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup)
 
 * Big Picture
