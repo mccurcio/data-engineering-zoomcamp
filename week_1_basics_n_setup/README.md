@@ -1,5 +1,5 @@
 ### Architecture
-[images/architecture/](../images/architecture/small_arch_1.jpg)
+![images/architecture/](../images/architecture/small_arch_1.jpg)
 
 #### Technologies used through this course
 
