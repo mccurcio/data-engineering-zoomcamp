@@ -14,11 +14,14 @@
 
 ### Prerequisites
 
+#### Install
+
 1. Python 3 - [Anaconda Python](https://www.anaconda.com/products/individual)
 1. GCP account
 1. [Docker](https://docs.docker.com/engine/install/)
 1. [Terraform](https://www.terraform.io/downloads)
-1. An IDE: VS code, PyCharm, Spyder, Jupyter Notebooks
+1. An IDE: VS code, PyCharm, Spyder, Jupyter Notebooks, ...
+1. Postgres SQL
 
 ### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup)
 
