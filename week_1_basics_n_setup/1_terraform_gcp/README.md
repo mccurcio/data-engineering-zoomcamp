@@ -2,9 +2,9 @@
 
 ### Pre-Requisites
 
-1. Terraform client installation: https://www.terraform.io/downloads
+1. Terraform client installation: <https://www.terraform.io/downloads>
 
-2. Google Cloud Provider account: https://console.cloud.google.com/
+2. Google Cloud Provider account: <https://console.cloud.google.com/>
 
     - Open up a GCP account
 
@@ -19,5 +19,5 @@
 
 ### Terraform Workshop for GCP Infra
 
-Continue [here](terraform).
+Continue [here](./terraform).
 `week_1_basics_n_setup/1_terraform_gcp/terraform`

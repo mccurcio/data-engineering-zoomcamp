@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  dataengineeringzoomcamp:
+    image: dataengineeringzoomcamp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["sh", "-c", "pip install debugpy -t /tmp && python /tmp/debugpy --wait-for-client --listen 0.0.0.0:5678 week_1_basics_n_setup/2_docker_sql/ingest_data.py "]
+    ports:
+      - 5678:5678

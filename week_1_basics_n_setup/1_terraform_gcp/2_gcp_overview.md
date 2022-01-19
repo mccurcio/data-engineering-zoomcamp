@@ -34,8 +34,8 @@ For this course, we'll use a free version (upto EUR 300 credits).
    Viewer + Storage Admin + Storage Object Admin + BigQuery Admin
 
 2. Enable these APIs for your project:
-   * https://console.cloud.google.com/apis/library/iam.googleapis.com
-   * https://console.cloud.google.com/apis/library/iamcredentials.googleapis.com
+   * <https://console.cloud.google.com/apis/library/iam.googleapis.com>
+   * <https://console.cloud.google.com/apis/library/iamcredentials.googleapis.com>
 
 3. Please ensure `GOOGLE_APPLICATION_CREDENTIALS` env-var is set.
 
